@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Retro Terminal Popup",
+  "version": "1.0.0",
+  "description": "A retro-themed popup extension with terminal aesthetic (black bg, yellow accents, VT323 font).",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Retro Terminal Access"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
