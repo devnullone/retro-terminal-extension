@@ -50,3 +50,31 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #FFFF00; /* retro-accent */
 }
+
+/* Iframe styling for retro aesthetic */
+iframe {
+  border: 2px solid #444444;
+  background-color: #000000;
+}
+
+iframe:focus {
+  border-color: #FFFF00;
+  outline: none;
+}
+
+/* Game interface specific styles */
+.game-container {
+  position: relative;
+}
+
+.game-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, transparent 98%, rgba(255, 255, 0, 0.1) 100%);
+  pointer-events: none;
+  z-index: 1;
+}

@@ -1,6 +1,6 @@
-# Retro Terminal Extension
+# Last Clicker Retro Terminal Extension
 
-A cross-browser (Chrome & Firefox) popup extension with a retro terminal aesthetic.
+A cross-browser (Chrome & Firefox) popup extension that provides a retro terminal interface for the Last Clicker EIP-7702 game. Access the full game experience in a nostalgic terminal aesthetic.
 
 ## Development Setup
 

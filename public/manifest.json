@@ -1,13 +1,16 @@
 {
   "manifest_version": 3,
-  "name": "Retro Terminal Popup",
+  "name": "Last Clicker Retro Terminal",
   "version": "1.0.0",
-  "description": "A retro-themed popup extension with terminal aesthetic (black bg, yellow accents, VT323 font).",
+  "description": "Last Clicker EIP-7702 game in a retro terminal interface (black bg, yellow accents, VT323 font).",
   "action": {
     "default_popup": "index.html",
-    "default_title": "Retro Terminal Access"
+    "default_title": "Last Clicker Terminal"
   },
   "permissions": [
     "activeTab"
+  ],
+  "host_permissions": [
+    "https://7702prj-lastclicker-production.up.railway.app/*"
   ]
 }
